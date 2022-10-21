@@ -23,3 +23,19 @@ console.log(shapes[2]);
 for (i in shapes) {
     console.log(shapes[i]);
 }
+
+function listShapes(){
+    for (var x = 0; x < shapes.length; x++) {
+        console.log(shapes[x])
+    }
+}
+
+listShapes();
+
+
+var randomShapes = shapes[Math.floor(Math.random() * shapes.length)];
+
+console.log(Math.floor(5.6));
+console.log(Math.floor(5.4));
+
+console.log(Math.random());
